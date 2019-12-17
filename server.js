@@ -4,7 +4,7 @@ const logger = require("morgan");
 
 var db = require("./models");
 
-var PORT = 3030;
+var PORT = process.env.PORT || 3030;
 
 const app = express();
 
