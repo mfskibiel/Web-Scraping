@@ -1,7 +1,7 @@
 # Web-Scraping
 
 Science Rules Web-scraping:
-This is an app created for unit 18 bootcamp homework. The idea behind it is using Cheerio and Mongoose to scrape news from a website (Inside Science). Users can then save news stories of interest, and leave comments/notes on them that will be available for all other users to see.
+This is an app created for unit 16 bootcamp homework. The idea behind it is using Cheerio and Mongoose to scrape news from a website (Inside Science). Users can then save news stories of interest, and leave comments/notes on them that will be available for all other users to see.
 
 Motivation:
 The app was created so that I could practice skills learned in class and gain further experience using Cheerio, MongoDB, and Mongoose.
