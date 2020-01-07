@@ -12,73 +12,14 @@
 
 </head>
 <body>
-
-<div class="container gallery-container">
-  <header>
-    <h3>Scrape the news to find some cool articles on Earth Science --- Science Rules!!!</h3>
-  </header>
-
-    <br>
-    <div class="text-center">
-        <a href="/clear"><button type="button" class="btn btn-danger">Clear Results</button></a>
-        <a href="/scrape"><button type="button" class="btn btn-success">Scrape for articles</button></a>
-    </div>
-    
-    <div class= "container">
-
-        <div class="row">
-          <ol id = "Results">
-          </ol>
-        </div>
-
-        <div class="modal fade" id= "notesModal" tabindex= "-1" role= "dialog" aria-labelledby="myModalLabel">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                        <h4 class="modal-title" id="modalTitle"></h4>
-                    </div>
-                    <div class="modal-body"><form>
-                        <div class="form-group">
-                            <label for="titleinput" class="control-label">
-                                Note Title:
-                            </label>
-                            <input type="text" class="form-control" id="titleinput" name:"title">
-                        </div>
-                        <div class="form-group">
-                            <label for="bodyinput" class="control-label" name="body">
-                                Note Text:
-                            </label>
-                            <textarea class="form-control" id="bodyinput">
-                                </textarea>
-                            </div>
-                        </form>
-                        <p id="note-text"></p>
-                        <h4 id="note-title"></h4>
-                        <p id="note-body"></p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">
-                            Close
-                        </button>
-                        <button type="button" class="btn btn-primary" id="save-note" data-id="">
-                            Save Note
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    
-
+    <H1>Scape some science News</H1>
+    <a href="/scrape">click here to scrape</a>
+    <div id = "wrapper">
+        <div id = "articles"></div>
+        <div id = "comments"></div>
     </div>
 
-</div>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/1.10.9/js/dataTables.bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 <script src="app.js"></script>
 </script>
